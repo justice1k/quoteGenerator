@@ -1,0 +1,64 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(./wp7516673.webp) no-repeat center center/ cover;
+}
+
+.main {
+  width: 80vw;
+  height: 40vh;
+}
+.header {
+  font-size: 1.3rem;
+  border: 2px solid rgb(235, 230, 230);
+  background-color: rgba(45, 49, 48, 0.783);
+  color: rgb(235, 229, 229);
+  padding: 0.4rem;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+.main-content {
+  background-color: antiquewhite;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2.5rem 1.5rem;
+  margin: 0 auto;
+}
+.main-content .text-area {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.main-content .author {
+  font-size: 1.7rem;
+  color: darkred;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background-color: black;
+  color: ghostwhite;
+  font-size: 1.3rem;
+  padding: 5px 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-area button:active {
+  background-color: burlywood;
+  border-color: burlywood;
+  color: black;
+}
